@@ -3,49 +3,47 @@
 # * product_contract
 # 
 # Translators:
-# leemannd <denis.leemann@camptocamp.com>, 2017
-# David BEAL, 2018
-# Fabien Bourgeois <fabien@yaltik.com>, 2018
+# nek, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-19 02:01+0000\n"
-"PO-Revision-Date: 2018-05-19 02:01+0000\n"
-"Last-Translator: Fabien Bourgeois <fabien@yaltik.com>, 2018\n"
-"Language-Team: French (https://www.transifex.com/oca/teams/23907/fr/)\n"
+"POT-Creation-Date: 2018-03-17 03:26+0000\n"
+"PO-Revision-Date: 2018-03-17 03:26+0000\n"
+"Last-Translator: nek, 2018\n"
+"Language-Team: Russian (https://www.transifex.com/oca/teams/23907/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #. module: product_contract
 #: model:ir.model.fields,field_description:product_contract.field_sale_order_line_contract_id
 msgid "Contract"
-msgstr "Contrat"
+msgstr "Договор"
 
 #. module: product_contract
 #: model:ir.model.fields,field_description:product_contract.field_product_product_contract_template_id
 #: model:ir.model.fields,field_description:product_contract.field_product_template_contract_template_id
 msgid "Contract Template"
-msgstr "Modèle de contrat"
+msgstr "Шаблон Договора"
 
 #. module: product_contract
 #: model:ir.model.fields,field_description:product_contract.field_product_product_is_contract
 #: model:ir.model.fields,field_description:product_contract.field_product_template_is_contract
 msgid "Is a contract"
-msgstr ""
+msgstr "Это Договор"
 
 #. module: product_contract
 #: model:ir.model,name:product_contract.model_product_template
 msgid "Product Template"
-msgstr ""
+msgstr "Шаблон Продукта"
 
 #. module: product_contract
 #: model:ir.model,name:product_contract.model_sale_order
 msgid "Sales Order"
-msgstr "Vente"
+msgstr ""
 
 #. module: product_contract
 #: model:ir.model,name:product_contract.model_sale_order_line
